@@ -1,6 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 💥 Introduction
+LetsMeet is a platform which allows you to schedule a Meet-up with details like Title, Location Image, Address and a description to get details about the meet-up like agenda, capacity etc. Front-End in build completely with NextJs and MongoDB is used to store meet-ups details. Then on landing page you will see list of the Meet-Ups and you can click on Show Details button to know full details of the meet-up. You also have option to create your own Meet-Up by clicking "Add New Meet-Up". 
 
-## Getting Started
+## 💡 Why did I build this?
+In pandemic situation all the in-person meet-ups have been put on stop and that is something which affects a lot in terms of socialization, networking etc So I thought of making a platform where people can actually post their meet-ups and those who wants to join them can connect with them. It can be used by friends to schedule casual meet-ups, by community to organize meet-ups etc.
+
+## 🛠️ Local development
+
+That's pretty easy. To ensure that you are able to install everything properly, we would recommend you to have <b>Git</b>, <b>NPM</b> and <b>Node.js</b> installed.
 
 First, run the development server:
 
@@ -18,17 +24,10 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+Once you run the Commands and get environment variables and everything fine, we are all set to run the app ✔️
 
-To learn more about Next.js, take a look at the following resources:
+## 🥁 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- LetsMeet provides JWT authentication for Login.
+- Users can check posted meet-ups with their location and details so that they can make presence at right time at rigth place.
+- Users can also post their own meetup with respective time, details and location image.
