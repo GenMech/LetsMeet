@@ -1,23 +1,21 @@
-// import { useEffect, useState } from 'react';
-import Head from "next/head";
+import React from "react";
+import MeetupList from "../../components/meetups/MeetupList";
 import { MongoClient } from "mongodb";
-import MeetupList from "../components/meetups/MeetupList";
 import { Fragment } from "react";
-import Intro from "../components/layout/Intro";
+import Head from "next/head";
 
-function HomePage(props) {
+function index(props) {
   return (
     <Fragment>
       <Head>
-        <title>LetsMeet</title>
-        <meta
-          name="description"
-          content="Browse a huge list of highly active React MeetUp"
-        />
+        <title>{props.meetups.title}</title>
+        <meta name="description" content={props.meetups.title} />
       </Head>
-      <Intro />
+      <MeetupList meetups={props.meetups} />;
     </Fragment>
   );
+
+  //   <MeetupList meetups={props.meetups} />;
 }
 
 export async function getStaticProps() {
@@ -58,4 +56,4 @@ export async function getStaticProps() {
   };
 }
 
-export default HomePage;
+export default index;

@@ -3,3 +3,9 @@
   width: 90%;
   max-width: 40rem;
 }
+
+.main2 {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
