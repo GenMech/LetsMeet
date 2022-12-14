@@ -28,6 +28,19 @@ Once you run the Commands and get environment variables and everything fine, we 
 
 ## 🥁 Features
 
-- LetsMeet provides JWT authentication for Login.
+- Landing Page which let you know what web app does.
 - Users can check posted meet-ups with their location and details so that they can make presence at right time at rigth place.
 - Users can also post their own meetup with respective time, details and location image.
+
+## Snapshots
+●<b> Landing Page </b>
+![LandingPage](https://user-images.githubusercontent.com/85284840/207690406-f7a5d339-b936-41b5-a39d-e962fe36b41e.png)
+<br/>
+●<b> List to Show all meet-ups posted </b>
+![MeetUpsList](https://user-images.githubusercontent.com/85284840/207690632-ca218439-cab7-4219-ae06-918ae9b0f7e5.png)
+&nbsp;
+●<b> Form to post new meet-up </b>
+![NewMeetUpForm](https://user-images.githubusercontent.com/85284840/207690922-fb1f52ed-2c53-451a-9d34-410bc18c80e1.png)
+
+
+
